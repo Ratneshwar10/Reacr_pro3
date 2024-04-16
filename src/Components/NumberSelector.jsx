@@ -1,12 +1,12 @@
-import { useState } from "react"
+
 import styled from "styled-components"
 
-const NumberSelector = () => {
+const NumberSelector = ({selectNumber,setSelectNumber}) => {  //pass props
 
     const arrNumber = [1,2,3,4,5,6]
 
-    const [selectNumber,setSelectNumber] = useState();
-    console.log(selectNumber)
+    
+    // console.log(selectNumber)
 
   return (
     <>
